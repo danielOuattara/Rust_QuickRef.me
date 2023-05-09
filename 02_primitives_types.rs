@@ -11,7 +11,7 @@ fn main() {
 
     //--------------------------------------------------------
 
-    // f32, 32-bits floats
+    // f32, f64 bits floats
     let _pi_1: f32 = 3.1415912345678901234567890; // 3.1415913
     println!("{}", _pi_1);
 
@@ -42,6 +42,29 @@ fn main() {
     // i8 ,  signed 8 bits integers between 128 & 127
     let _integer_8: i8 = -127;
     println!("_integer_8 = {}", _integer_8);
+
+    //----------------------------------------------------
+
+    // u128, unsigned 128 bits integers
+    // between:  0 to 340282366920938463463374607431768211455
+    let u_integer_128: u128 = 123456789012345678901234567890123456789;
+    println!("u_integer_128 = {} ", u_integer_128);
+
+    // u64, unsigned 64 bits integers
+    let _integer_64: u64 = 1234567890123456789;
+    println!("_integer_64 = {}", _integer_64);
+
+    // u32, unsigned 32 bits integers: 0 to  2147483647
+    let u_integer_32: u32 = 2147483647;
+    println!("u_integer_32 = {}", u_integer_32);
+
+    // u16, unsigned 16 bits integers from 0 to 32767
+    let u_integer_16: u16 = 32768;
+    println!("u_integer_16 = {}", u_integer_16);
+
+    // u8, unsigned 8 bits integers between 0 and 127
+    let u_integer_8: u8 = 127;
+    println!("u_integer_8 = {}", u_integer_8);
 
     //--------------------------------------------------------
 

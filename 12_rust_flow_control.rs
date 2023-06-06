@@ -68,25 +68,25 @@ fn main() {
     let day_of_week = 2;
     match day_of_week {
         1 => {
-            println!("Its Monday my dudes");
+            println!("Its Monday");
         }
         2 => {
-            println!("It's Tuesday my dudes");
+            println!("It's Tuesday");
         }
         3 => {
-            println!("It's Wednesday my dudes");
+            println!("It's Wednesday");
         }
         4 => {
-            println!("It's Thursday my dudes");
+            println!("It's Thursday");
         }
         5 => {
-            println!("It's Friday my dudes");
+            println!("It's Friday");
         }
         6 => {
-            println!("It's Saturday my dudes");
+            println!("It's Saturday");
         }
         7 => {
-            println!("It's Sunday my dudes");
+            println!("It's Sunday");
         }
         _ => {
             println!("Default!")
@@ -126,6 +126,7 @@ fn main() {
             break; // stop while
         }
     }
+    println!("-----------end of while loop");
 
     /* Loop keyword & infinite loop
     -------------------------------- */
@@ -145,6 +146,8 @@ fn main() {
         i *= 2;
     }
 
+    println!("----------------------------- end of loop");
+
     /* Continue Statement
     ----------------------- */
 
@@ -157,6 +160,8 @@ fn main() {
         println!("the value of v is :{v}");
     }
 
+    println!("----------------------------- end of loop");
+
     for (v, c) in (0..10 + 1).enumerate() {
         println!("The {c} number loop");
         if v == 5 {
@@ -165,4 +170,5 @@ fn main() {
         }
         println!("the value of v is :{v}");
     }
+    println!("----------------------------- end of loop");
 }

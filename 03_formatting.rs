@@ -27,7 +27,7 @@ fn main() {
         (76, 'A', 90, "Hello world !")
     );
 
-    // New Format Strings in 1.58
+    // New Format Strings in V1.58+
     let x = "world";
     println!("Hello {x}!");
 }

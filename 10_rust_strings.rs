@@ -1,19 +1,21 @@
 fn main() {
     /* String literal
     -------------------- */
+
     let c_sheet = "cheat sheet";
     // share cheat sheet for developers
     println!("Share {c_sheet} for developers");
 
     let cs: &str = "cheat sheet";
     // share cheat sheet for developers
-    println!("Share {cs} for developers");
+    println!("Share {cs} for programmers");
 
     /* String Object
     -----------------*/
 
     // creating empty string object
-    let _my_string = String::new;
+    let _my_string = String::new();
+    println!("_my_string = {_my_string:?}"); // empty
 
     let a_string = 45;
     println!("{a_string}");
